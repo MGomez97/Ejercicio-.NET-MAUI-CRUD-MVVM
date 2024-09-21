@@ -9,16 +9,23 @@
             InitializeComponent();
         }
 
+        public object CounterBtn { get; private set; }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
         private void OnCounterClicked(object sender, EventArgs e)
         {
             count++;
 
             if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+                CounterBtn = $"Clicked {count} time";
             else
-                CounterBtn.Text = $"Clicked {count} times";
+                CounterBtn = $"Clicked {count} times";
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            SemanticScreenReader.Announce((string)CounterBtn);
         }
     }
 
