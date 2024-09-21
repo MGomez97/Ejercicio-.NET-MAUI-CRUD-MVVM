@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio CRUD Mvvm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b55994ea06bab4475cf5497ddd6d25296c8c0994")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6d124939a8d279d5372baef9c35e237bda47a236")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejercicio CRUD Mvvm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio CRUD Mvvm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
